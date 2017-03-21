@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ asset('bundles/boissieree4/less/styles.css') }}" rel="stylesheet" media="screen">
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap_bootstrap_1.css') }}" rel="stylesheet" media="screen">
+    <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    {% include 'BraincraftedBootstrapBundle::ie8-support.html.twig' %}
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <!-- Include all JavaScripts, compiled by Assetic -->
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <button type="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">Sign in</button>
+    <button type="button" class="btn btn-default navbar-btn navbar-right navbarConnexion">
+        <span class="glyphicon glyphicon-log-in"></span> Log in
+    </button>
+    <p class="navbar-text navbar-right">Bienvenue !</p>
+</nav>
+<div id="slide1"><div class="slide_inside">
+        <h1 class="titreAssoc">SLAP TRACK</h1>
+            <p class="textAssoc" id="BienvenueAssoc">Bienvenue chez SLAP TRACK !</p>
+                <pre class="textAssoc" id="textPresentationAssoc">
+                    Nous sommes une assocation musicale montpellieraine, heberger avec amabilité par la maison des
+                    associations de Montpellier. A l'heure actuelle nous sommes encore une petite structure d'une
+                    dixaine de d'intervenant. Notre ambition est de regrouper des musiciens autour de leurs passions
+                    pour organiser des évenements & donner des cours a ceux qui le souhaite. Nous aimons partager
+                    nos culture dans le respect et le son ! Bonne visite sur le site.
+                </pre>
+
+        <div class="col-lg-12 goldenZoneAssoc"></div>
+    </div>
+</div>
+<div id="slide2"><div class="slide_inside">
+        <div class="col-lg-12 goldenZoneAssoc"></div>
+    </div>
+</div>
+<div id="slide3"><div class="slide_inside">
+        <div class="col-lg-12 goldenZoneAssoc"></div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>

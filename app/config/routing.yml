@@ -1,0 +1,3 @@
+boissiere_e4:
+    resource: "@BoissiereE4Bundle/Resources/config/routing.xml"
+    prefix:   /
