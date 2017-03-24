@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86cf3d81-4f43-498b-89b7-5299aff0fee4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Producteur.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Artiste.orm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Film.orm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Genre.orm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Internaute.orm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Notation.orm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Pays.orm.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/composer/installed.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/CHANGELOG-1.0.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/CHANGELOG-1.0.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/CHANGELOG-1.1.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/CHANGELOG-1.1.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/CHANGELOG-1.2.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/CHANGELOG-1.2.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/Gemfile" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/Gemfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/package.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollection.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollectionInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollectionInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetReference.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetReference.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/BaseAsset.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/BaseAsset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/FileAsset.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/FileAsset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/GlobAsset.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/GlobAsset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/HttpAsset.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/HttpAsset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionFilterIterator.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionFilterIterator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionIterator.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/Iterator/AssetCollectionIterator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Asset/StringAsset.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Asset/StringAsset.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/AssetManager.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/AssetManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/AssetWriter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/AssetWriter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ApcCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ApcCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ArrayCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ArrayCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/CacheInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/CacheInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ConfigCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ConfigCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ExpiringCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/ExpiringCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Cache/FilesystemCache.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Cache/FilesystemCache.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Exception/Exception.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Exception/Exception.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticExtension.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticExtension.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterFunction.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterFunction.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterInvoker.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterInvoker.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterNode.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticFilterNode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticNode.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticNode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticTokenParser.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/AsseticTokenParser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigFormulaLoader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigFormulaLoader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigResource.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/TwigResource.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/ValueContainer.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Extension/Twig/ValueContainer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/AssetFactory.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/AssetFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/LazyAssetManager.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/LazyAssetManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/BasePhpFormulaLoader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/BasePhpFormulaLoader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/CachedFormulaLoader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/CachedFormulaLoader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FormulaLoaderInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FormulaLoaderInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/CoalescingDirectoryResource.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/CoalescingDirectoryResource.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/FileResource.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/FileResource.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/IteratorResourceInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/IteratorResourceInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/ResourceInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/ResourceInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/CacheBustingWorker.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/CacheBustingWorker.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/EnsureFilterWorker.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/EnsureFilterWorker.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/WorkerInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Factory/Worker/WorkerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/AutoprefixerFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/AutoprefixerFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseCssFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseCssFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseNodeFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseNodeFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseProcessFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseProcessFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CallablesFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CallablesFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CleanCssFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CleanCssFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CoffeeScriptFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CoffeeScriptFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CompassFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CompassFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssCacheBustingFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssCacheBustingFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssEmbedFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssEmbedFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssImportFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssImportFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssMinFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssMinFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssRewriteFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/CssRewriteFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/DartFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/DartFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/DependencyExtractorInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/DependencyExtractorInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/EmberPrecompileFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/EmberPrecompileFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterCollection.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterCollection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/FilterInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/BaseCompilerFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/BaseCompilerFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerApiFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerApiFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerJarFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GoogleClosure/CompilerJarFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GssFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/GssFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/HandlebarsFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/HandlebarsFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/HashableInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/HashableInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinPlusFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSMinPlusFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSqueezeFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JSqueezeFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegoptimFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegoptimFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegtranFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/JpegtranFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessphpFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/LessphpFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/MinifyCssCompressorFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/MinifyCssCompressorFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/OptiPngFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/OptiPngFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackagerFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackagerFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackerFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PackerFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PhpCssEmbedFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PhpCssEmbedFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PngoutFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/PngoutFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/ReactJsxFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/ReactJsxFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/RooleFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/RooleFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/BaseSassFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/BaseSassFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/SassFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/SassFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/ScssFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Sass/ScssFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SassphpFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SassphpFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/ScssphpFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/ScssphpFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SeparatorFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SeparatorFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SprocketsFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/SprocketsFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/StylusFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/StylusFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/TypeScriptFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/TypeScriptFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyCssFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyCssFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJs2Filter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJs2Filter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJsFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/UglifyJsFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/BaseCompressorFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/BaseCompressorFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/CssCompressorFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/CssCompressorFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/JsCompressorFilter.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Filter/Yui/JsCompressorFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/FilterManager.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/FilterManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/CssUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/CssUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/FilesystemUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/FilesystemUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/LessUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/LessUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/SassUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/SassUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/TraversableString.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/TraversableString.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/Util/VarUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/Util/VarUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/kriswallsmith/assetic/src/functions.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/kriswallsmith/assetic/src/functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/.gitignore" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/AbstractLogger.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/AbstractLogger.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/InvalidArgumentException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/LogLevel.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/LogLevel.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/LoggerInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/LoggerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/LoggerTrait.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/LoggerTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/NullLogger.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/NullLogger.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/psr/log/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/console/0b1d76c0a0883b2ae7fedf305a2b9daf" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/console/0b1d76c0a0883b2ae7fedf305a2b9daf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/.gitignore" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/BufferingLogger.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/BufferingLogger.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Debug.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Debug.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/DebugClassLoader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/DebugClassLoader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/ErrorHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/ErrorHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/ClassNotFoundException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/ClassNotFoundException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/ContextErrorException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/ContextErrorException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/FatalErrorException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/FatalErrorException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/FatalThrowableError.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/FatalThrowableError.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/FlattenException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/FlattenException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/OutOfMemoryException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/OutOfMemoryException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/SilencedErrorContext.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/SilencedErrorContext.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/UndefinedFunctionException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/UndefinedFunctionException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Exception/UndefinedMethodException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Exception/UndefinedMethodException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/ExceptionHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/ExceptionHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/FatalErrorHandler/ClassNotFoundFatalErrorHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/FatalErrorHandler/FatalErrorHandlerInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/FatalErrorHandler/FatalErrorHandlerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/FatalErrorHandler/UndefinedFunctionFatalErrorHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/FatalErrorHandler/UndefinedFunctionFatalErrorHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/FatalErrorHandler/UndefinedMethodFatalErrorHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/FatalErrorHandler/UndefinedMethodFatalErrorHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/config.m4" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/config.m4" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/config.w32" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/config.w32" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/php_symfony_debug.h" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/php_symfony_debug.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/symfony_debug.c" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/symfony_debug.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/tests/001.phpt" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/tests/001.phpt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/tests/002.phpt" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/tests/002.phpt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/tests/002_1.phpt" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/tests/002_1.phpt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Resources/ext/tests/003.phpt" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Resources/ext/tests/003.phpt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/ErrorHandlerTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/ErrorHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/ExceptionHandlerTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/ExceptionHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/FatalErrorHandler/ClassNotFoundFatalErrorHandlerTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/FatalErrorHandler/ClassNotFoundFatalErrorHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedFunctionFatalErrorHandlerTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedFunctionFatalErrorHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedMethodFatalErrorHandlerTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedMethodFatalErrorHandlerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/ClassAlias.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/ClassAlias.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/NonDeprecatedInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/NonDeprecatedInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/PEARClass.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/PEARClass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/ToStringThrower.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/ToStringThrower.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/casemismatch.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/casemismatch.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/notPsr0Bis.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/notPsr0Bis.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/psr4/Psr4CaseMismatch.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/psr4/Psr4CaseMismatch.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures/reallyNotPsr0.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures/reallyNotPsr0.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/Fixtures2/RequiredTwice.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/Fixtures2/RequiredTwice.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/HeaderMock.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/HeaderMock.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/Tests/MockExceptionHandler.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/Tests/MockExceptionHandler.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/debug/phpunit.xml.dist" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/debug/phpunit.xml.dist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/Mbstring.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/Mbstring.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/bootstrap.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/bootstrap.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/polyfill-mbstring/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/polyfill-mbstring/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/.gitignore" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/ExceptionInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/InvalidArgumentException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/LogicException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/LogicException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/ProcessFailedException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/ProcessFailedException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/ProcessTimedOutException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/ProcessTimedOutException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Exception/RuntimeException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Exception/RuntimeException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/ExecutableFinder.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/ExecutableFinder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/InputStream.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/InputStream.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/PhpExecutableFinder.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/PhpExecutableFinder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/PhpProcess.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/PhpProcess.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Pipes/AbstractPipes.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Pipes/AbstractPipes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Pipes/PipesInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Pipes/PipesInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Pipes/UnixPipes.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Pipes/UnixPipes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Pipes/WindowsPipes.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Pipes/WindowsPipes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Process.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Process.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/ProcessBuilder.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/ProcessBuilder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/ProcessUtils.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/ProcessUtils.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/ExecutableFinderTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/ExecutableFinderTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/NonStopableProcess.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/NonStopableProcess.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/PhpExecutableFinderTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/PhpExecutableFinderTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/PhpProcessTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/PhpProcessTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/PipeStdinInStdoutStdErrStreamSelect.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/PipeStdinInStdoutStdErrStreamSelect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/ProcessBuilderTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/ProcessBuilderTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/ProcessFailedExceptionTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/ProcessFailedExceptionTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/ProcessTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/ProcessTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/ProcessUtilsTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/ProcessUtilsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/Tests/SignalListener.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/Tests/SignalListener.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/process/phpunit.xml.dist" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/process/phpunit.xml.dist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/.gitignore" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Command/LintCommand.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Command/LintCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Dumper.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Dumper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Escaper.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Escaper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Exception/DumpException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Exception/DumpException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Exception/ExceptionInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Exception/ParseException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Exception/ParseException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Exception/RuntimeException.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Exception/RuntimeException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Inline.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/LICENSE" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Parser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/README.md" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Command/LintCommandTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Command/LintCommandTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/DumperTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsAnchorAlias.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsAnchorAlias.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsBasicTests.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsBasicTests.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsBlockMapping.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsBlockMapping.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsDocumentSeparator.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsDocumentSeparator.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsErrorTests.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsErrorTests.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsFlowCollections.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsFlowCollections.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsFoldedScalars.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsFoldedScalars.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsSpecificationExamples.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/YtsTypeTransfers.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/YtsTypeTransfers.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/embededPhp.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/embededPhp.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/escapedCharacters.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/escapedCharacters.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/index.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/index.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/multiple_lines_as_literal_block.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/multiple_lines_as_literal_block.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfCompact.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfCompact.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfObjects.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfObjects.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfQuotes.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfQuotes.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/sfTests.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/sfTests.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/Fixtures/unindentedCollections.yml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/Fixtures/unindentedCollections.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/InlineTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/InlineTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/ParseExceptionTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/ParseExceptionTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/ParserTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Tests/YamlTest.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Tests/YamlTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Unescaper.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Unescaper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/Yaml.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/Yaml.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/composer.json" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/vendor/symfony/yaml/phpunit.xml.dist" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/symfony/yaml/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/Association/association.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/Association/association.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Film.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="association.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/Association/association.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="association.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssociationController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggerInterfaceTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pre</find>
+    </findStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:mapping:convert xml src/AppBundle/Resources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:convert xml src/BoissiereE4Bundle/Resources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:import AppBundle annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:generate:entities  BoissiereE4Bundle:Producteur" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:import Boissiere/E4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import Boissiere annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/Resources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:import Boissiere annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/E4Bundle/Resources/sources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:import src/Boissiere/E4Bundle/Entity/ annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import src/BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:generate:entities  BoissiereE4Bundle:Producteur" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/E4Bundle/Resources/sources/sources/config/doctrine/metadata/orm --from-database --force --filter=Producteur" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation  --filter=Producteur" />
+      <command text="s doctrine:generate:entities  BoissiereE4Bundle:Producteur" />
+      <command text="s server:run " />
+    </commandsHistory>
+  </component>
+  <component name="FrameworkRootSettings" id="Symfony2">
+    <option name="typedPaths">
+      <list>
+        <element elementPath="$PROJECT_DIR$/app" typeId="app_directory" />
+        <element elementPath="$PROJECT_DIR$/vendor" typeId="vendor_directory" />
+        <element elementPath="$PROJECT_DIR$/web" typeId="web_directory" />
+      </list>
+    </option>
+    <option name="myTypedPaths">
+      <list>
+        <element elementPath="$PROJECT_DIR$/app" typeId="app_directory" />
+        <element elementPath="$PROJECT_DIR$/vendor" typeId="vendor_directory" />
+        <element elementPath="$PROJECT_DIR$/web" typeId="web_directory" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/helloController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/HomePage/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/header.php.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Header/header.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/web/bundles/boissieree4/styles.css" />
+        <option value="$PROJECT_DIR$/web/test.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/HeaderController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
+        <option value="$PROJECT_DIR$/app/logs/dev.log" />
+        <option value="$PROJECT_DIR$/app/Resources/public/less/styles.css" />
+        <option value="$PROJECT_DIR$/app/Resources/public/less/styles.less" />
+        <option value="$PROJECT_DIR$/app/Resources/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/Controller/AssociationController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/Association/association.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/config/routing.xml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.css" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less" />
+        <option value="$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Artiste.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Genre.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Internaute.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Notation.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Pays.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Film.php" />
+        <option value="$PROJECT_DIR$/web/bundles/boissieree4/less/styles.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1/debugE4" id="68c2695e-82a6-4b7e-92b0-cd5bc1b68b86" name="E4Server" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
+  <component name="PhpXdebugProxy" ide_key="PHPStorm" host="localhost" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boissieree4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles.less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boissieree4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Association" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boissiere" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="E4Bundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Association" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;FileLoader.php&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php&#10;fileLoad&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/FilesLoader.php&#10;compose&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/composer.json&#10;app&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/AppKernel.php&#10;appKer&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/AppKernel.php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="last_opened_file_path" value="C:/MAMP/htdocs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\Association" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Resources" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\web\bundles\boissieree4\less" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Controller" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\web\bundles\boissieree4\less\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\default" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\web\bundles\boissieree4\less\images" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Resources\views\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.Unnamed">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="E4Server" start_url="/web/app_dev.php">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86cf3d81-4f43-498b-89b7-5299aff0fee4" name="Default" comment="" />
+      <created>1489854907938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489854907938</updated>
+      <workItem from="1489854921090" duration="6494000" />
+      <workItem from="1489924523280" duration="11392000" />
+      <workItem from="1489942399259" duration="2727000" />
+      <workItem from="1490013627520" duration="27570000" />
+      <workItem from="1490092918355" duration="967000" />
+      <workItem from="1490094746578" duration="678000" />
+      <workItem from="1490099809235" duration="3039000" />
+      <workItem from="1490114915264" duration="2148000" />
+      <workItem from="1490129648538" duration="70000" />
+      <workItem from="1490175967301" duration="5329000" />
+      <workItem from="1490203394357" duration="146000" />
+      <workItem from="1490313682811" duration="1562000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62122000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Header/header.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/bundles/E4Bundle/images/header.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/structure.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/exception.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/styles.css" />
+    <entry file="file://$PROJECT_DIR$/web/test.php" />
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/HeaderController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+    <entry file="file://$PROJECT_DIR$/app/logs/dev.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="187" column="24" lean-forward="false" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/body.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/less/styles.css" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/less/styles.less" />
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/Controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/Controller/AssociationController.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/FilesLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/config/routing.xml" />
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap_bootstrap_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="4" column="114870" lean-forward="false" selection-start-line="4" selection-start-column="114867" selection-end-line="4" selection-end-column="114870" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1495">
+          <caret line="4" column="8180" lean-forward="false" selection-start-line="4" selection-start-column="8180" selection-end-line="4" selection-end-column="8180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Artiste.orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/Ressources/doctrine/metadata/orm/Film.orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Internaute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Notation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Pays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Artiste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3381">
+          <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Association/association.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
