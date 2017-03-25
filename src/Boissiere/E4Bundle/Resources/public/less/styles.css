@@ -40,11 +40,88 @@ img.imgAcceuil:hover {
 /*-------------------------ASSOCIATION----------------------------------------*/
 /*----------------------------------------------------------------------------*/
 div#slide1 {
-  background: url('images/imageAssoc1.jpg') center 0 no-repeat fixed;
-}
-div#slide2 {
   background: url('images/imageAssoc2.jpg') center 0 no-repeat fixed;
 }
-div#slide3 {
+div#slide2 {
   background: url('images/imageAssoc3.jpg') center 0 no-repeat fixed;
+}
+div#slide3 {
+  background: url('images/imageAssoc5.png') center 0 no-repeat fixed;
+}
+/* Gestion du contenu */
+.slide_inside {
+  width: 980px;
+  margin: 0 auto;
+}
+#slide1 .slide_inside {
+  text-align: center;
+}
+#slide2 .slide_inside p {
+  width: 500px;
+  text-align: justify;
+}
+#slide3 .slide_inside {
+  margin-top: 50px;
+  padding: 50px;
+}
+#slide1,
+#slide2,
+#slide3 {
+  height: 1000px;
+  padding-top: 100px;
+}
+.goldenZoneAssoc {
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(250, 250, 210, 0.5);
+  height: 700px;
+  width: 100%;
+}
+.titreAssoc {
+  color: lightgray;
+  opacity: 0.9;
+}
+.titreTarifs {
+  color: lightgray;
+  opacity: 0.9;
+  text-align: center;
+}
+#BienvenueAssoc {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: 2;
+}
+.textAssoc {
+  z-index: 2;
+  color: black;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 10%;
+  background: none;
+  border: none;
+}
+.tableauTarifs {
+  z-index: 2;
+  position: absolute;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
+}
+.tableauTarifs tr:nth-child(even) {
+  background-color: white;
+}
+.tableauTarifs tr:hover {
+  background-color: rgba(250, 250, 210, 0.5);
+}
+.tableauTarifs th,
+.tableauTarifs td {
+  text-align: left;
+  padding: 8px;
+}
+.tableauTarifs th.tableauEntete {
+  background-color: #E7A854;
+  color: white;
 }
