@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Groups" table="groups">
+    <indexes>
+      <index name="idmembers" columns="idmembers"/>
+    </indexes>
+    <unique-constraints>
+      <unique-constraint name="idsongs" columns="idsongs"/>
+      <unique-constraint name="idGroup" columns="idGroup"/>
+    </unique-constraints>
+    <id name="idgroup" type="integer" column="idGroup">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="groupname" type="string" column="groupName" length="255" nullable="false"/>
+    <field name="idmembers" type="integer" column="idmembers" nullable="false"/>
+    <field name="idsongs" type="integer" column="idsongs" nullable="false"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Songs" table="songs">
+    <indexes>
+      <index name="idGroup" columns="idGroup"/>
+    </indexes>
+    <id name="idsong" type="integer" column="idSong">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="namesong" type="string" column="nameSong" length="255" nullable="false"/>
+    <field name="style" type="string" column="style" length="255" nullable="false"/>
+    <field name="idgroup" type="integer" column="idGroup" nullable="false"/>
+  </entity>
+</doctrine-mapping>

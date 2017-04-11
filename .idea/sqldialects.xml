@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="mock:///EventsRepository.php" dialect="GenericSQL" />
+    <file url="mock:///EventsRepository.php" dialect="GenericSQL" />
+    <file url="mock:///EventsRepository.php" dialect="MySQL" />
+    <file url="mock:///EventsRepository.php" dialect="TSQL" />
+    <file url="mock:///EventsRepository.php" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$" dialect="MySQL" />
+  </component>
+</project>

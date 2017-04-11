@@ -10,4 +10,7 @@
     <route id="boissiere_e4_associationPage" path="/association">
         <default key="_controller">BoissiereE4Bundle:Association:index</default>
     </route>
+    <route id="boissiere_e4_planningPage" path="/planning">
+        <default key="_controller">BoissiereE4Bundle:admin\Events:index</default>
+    </route>
 </routes>

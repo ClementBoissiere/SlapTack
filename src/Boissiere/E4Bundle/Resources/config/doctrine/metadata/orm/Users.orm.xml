@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Users" table="users">
+    <indexes>
+      <index name="idUser" columns="idUser"/>
+    </indexes>
+    <id name="iduser" type="integer" column="idUser">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="username" type="string" column="username" length="255" nullable="false"/>
+    <field name="pasword" type="string" column="pasword" length="255" nullable="false"/>
+    <field name="mail" type="string" column="mail" length="255" nullable="false"/>
+  </entity>
+</doctrine-mapping>

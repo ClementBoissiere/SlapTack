@@ -20,28 +20,90 @@
     <button type="button" class="btn btn-default navbar-btn navbar-right navbarConnexion">
         <span class="glyphicon glyphicon-log-in"></span> Log in
     </button>
+    <a href="/"> <p class="navbar-text navbar-left">SLAP TRACK</p></a>
     <p class="navbar-text navbar-right">Bienvenue !</p>
 </nav>
 <div id="slide1"><div class="slide_inside">
         <h1 class="titreAssoc">SLAP TRACK</h1>
+        <div class="col-lg-12 goldenZoneAssoc">
             <p class="textAssoc" id="BienvenueAssoc">Bienvenue chez SLAP TRACK !</p>
-                <pre class="textAssoc" id="textPresentationAssoc">
+            <pre class="textAssoc" id="textPresentationAssoc">
                     Nous sommes une assocation musicale montpellieraine, heberger avec amabilité par la maison des
                     associations de Montpellier. A l'heure actuelle nous sommes encore une petite structure d'une
                     dixaine de d'intervenant. Notre ambition est de regrouper des musiciens autour de leurs passions
                     pour organiser des évenements & donner des cours a ceux qui le souhaite. Nous aimons partager
                     nos culture dans le respect et le son ! Bonne visite sur le site.
                 </pre>
-
-        <div class="col-lg-12 goldenZoneAssoc"></div>
+            <img class="imgTarifs" src="{{ asset('bundles/boissieree4/less/images/logo-association.jpg') }}">
+        </div>
     </div>
 </div>
 <div id="slide2"><div class="slide_inside">
-        <div class="col-lg-12 goldenZoneAssoc"></div>
+        <h1 class="titreTarifs">Tarifs</h1>
+        <div class="col-lg-12 goldenZoneAssoc">
+            <table class="tableauTarifs">
+                <tr>
+                    <th class="tableauEntete"></th>
+                    <th class="tableauEntete">Cours</th>
+                    <th class="tableauEntete">Evenements</th>
+                    <th class="tableauEntete">Cotisation</th>
+                </tr>
+                <tr>
+                    <th >Adulte</th>
+                    <td>15€</td>
+                    <td>30€</td>
+                    <td>5€</td>
+                </tr>
+                <tr>
+                    <th>Enfant</th>
+                    <td>10€</td>
+                    <td>gratuit</td>
+                    <td>5€</td>
+                </tr>
+                <tr>
+                    <th>Etudiants</th>
+                    <td>7€</td>
+                    <td>20€</td>
+                    <td>5€</td>
+                </tr>
+            </table>
+
+            <h2 class="horaire">Nos horaires</h2>
+            <table class="tableauTarifs">
+                <tr>
+                    <th class="tableauEntete">Lundi - Mardi</th>
+                    <th class="tableauEntete">Jeudi - Vendredi</th>
+                    <th class="tableauEntete">Mercredi - Samedi</th>
+                </tr>
+                <tr>
+                    <td>10h - 12h</td>
+                    <td>10h - 12h</td>
+                    <td>8h - 12h</td>
+                </tr>
+                <tr>
+                    <td>16h - 21h</td>
+                    <td>16h - 21h</td>
+                    <td>13h - 19h</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+            </table>
+            <h2 class="horaire">Nous contacter</h2>
+            <p class="contact">Pour nous appeller : 06.XX.XX.XX.XX</p>
+            <p class="contact" id="mail">Pour nous joindre par courriel : jesuisunbÔmail@tresbeaumail.com</p>
+        </div>
     </div>
 </div>
 <div id="slide3"><div class="slide_inside">
-        <div class="col-lg-12 goldenZoneAssoc"></div>
+        <h1 class="titreTarifs">Où nous trouver ?</h1>
+        <div class="col-lg-12 goldenZoneAssoc">
+            <!-- googlemaps -->
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.8317245885746!2d4.083513115884825!3d43.56838937912432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b69823ff56739b%3A0x6d9352fe09ef7cd3!2sMaison+des+Associations!5e0!3m2!1sfr!2sfr!4v1490448220900" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
