@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Members
  *
  * @ORM\Table(name="members")
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\MembersRepository")
+ * @ORM\Entity
  */
 class Members
 {
@@ -42,84 +42,12 @@ class Members
      */
     private $description;
 
-
-
     /**
-     * Get idmember
+     * @var string
      *
-     * @return integer 
+     * @ORM\Column(name="picture", type="string", length=255, nullable=false)
      */
-    public function getIdmember()
-    {
-        return $this->idmember;
-    }
+    private $picture;
 
-    /**
-     * Set namemember
-     *
-     * @param string $namemember
-     * @return Members
-     */
-    public function setNamemember($namemember)
-    {
-        $this->namemember = $namemember;
 
-        return $this;
-    }
-
-    /**
-     * Get namemember
-     *
-     * @return string 
-     */
-    public function getNamemember()
-    {
-        return $this->namemember;
-    }
-
-    /**
-     * Set instrument
-     *
-     * @param string $instrument
-     * @return Members
-     */
-    public function setInstrument($instrument)
-    {
-        $this->instrument = $instrument;
-
-        return $this;
-    }
-
-    /**
-     * Get instrument
-     *
-     * @return string 
-     */
-    public function getInstrument()
-    {
-        return $this->instrument;
-    }
-
-    /**
-     * Set description
-     *
-     * @param string $description
-     * @return Members
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * Get description
-     *
-     * @return string 
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
 }

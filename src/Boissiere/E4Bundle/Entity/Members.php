@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Members
  *
  * @ORM\Table(name="members")
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\MembersRepository")
+ * @ORM\Entity
  */
 class Members
 {
@@ -41,6 +41,13 @@ class Members
      * @ORM\Column(name="description", type="text", length=65535, nullable=false)
      */
     private $description;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="picture", type="string", length=255, nullable=false)
+     */
+    private $picture;
 
 
 
@@ -121,5 +128,28 @@ class Members
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * Set picture
+     *
+     * @param string $picture
+     * @return Members
+     */
+    public function setPicture($picture)
+    {
+        $this->picture = $picture;
+
+        return $this;
+    }
+
+    /**
+     * Get picture
+     *
+     * @return string 
+     */
+    public function getPicture()
+    {
+        return $this->picture;
     }
 }

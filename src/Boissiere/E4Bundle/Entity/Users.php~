@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Users
  *
  * @ORM\Table(name="users", indexes={@ORM\Index(name="idUser", columns={"idUser"})})
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\UsersRepository")
+ * @ORM\Entity
  */
 class Users
 {
@@ -43,83 +43,4 @@ class Users
     private $mail;
 
 
-
-    /**
-     * Get iduser
-     *
-     * @return integer 
-     */
-    public function getIduser()
-    {
-        return $this->iduser;
-    }
-
-    /**
-     * Set username
-     *
-     * @param string $username
-     * @return Users
-     */
-    public function setUsername($username)
-    {
-        $this->username = $username;
-
-        return $this;
-    }
-
-    /**
-     * Get username
-     *
-     * @return string 
-     */
-    public function getUsername()
-    {
-        return $this->username;
-    }
-
-    /**
-     * Set pasword
-     *
-     * @param string $pasword
-     * @return Users
-     */
-    public function setPasword($pasword)
-    {
-        $this->pasword = $pasword;
-
-        return $this;
-    }
-
-    /**
-     * Get pasword
-     *
-     * @return string 
-     */
-    public function getPasword()
-    {
-        return $this->pasword;
-    }
-
-    /**
-     * Set mail
-     *
-     * @param string $mail
-     * @return Users
-     */
-    public function setMail($mail)
-    {
-        $this->mail = $mail;
-
-        return $this;
-    }
-
-    /**
-     * Get mail
-     *
-     * @return string 
-     */
-    public function getMail()
-    {
-        return $this->mail;
-    }
 }

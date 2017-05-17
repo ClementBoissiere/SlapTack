@@ -12,4 +12,5 @@ use Doctrine\ORM\EntityRepository;
  */
 class MembersRepository extends EntityRepository
 {
+
 }

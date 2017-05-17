@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Events
  *
  * @ORM\Table(name="events")
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\EventsRepository")
+ * @ORM\Entity
  */
 class Events
 {
@@ -55,6 +55,13 @@ class Events
      * @ORM\Column(name="description", type="text", length=65535, nullable=false)
      */
     private $description;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="picture", type="string", length=255, nullable=false)
+     */
+    private $picture;
 
 
 
@@ -181,5 +188,28 @@ class Events
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * Set picture
+     *
+     * @param string $picture
+     * @return Events
+     */
+    public function setPicture($picture)
+    {
+        $this->picture = $picture;
+
+        return $this;
+    }
+
+    /**
+     * Get picture
+     *
+     * @return string 
+     */
+    public function getPicture()
+    {
+        return $this->picture;
     }
 }

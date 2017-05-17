@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Songs
  *
  * @ORM\Table(name="songs", indexes={@ORM\Index(name="idGroup", columns={"idGroup"})})
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\SongsRepository")
+ * @ORM\Entity
  */
 class Songs
 {
@@ -41,6 +41,13 @@ class Songs
      * @ORM\Column(name="idGroup", type="integer", nullable=false)
      */
     private $idgroup;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="songPath", type="string", length=255, nullable=false)
+     */
+    private $songpath;
 
 
 
@@ -121,5 +128,28 @@ class Songs
     public function getIdgroup()
     {
         return $this->idgroup;
+    }
+
+    /**
+     * Set songpath
+     *
+     * @param string $songpath
+     * @return Songs
+     */
+    public function setSongpath($songpath)
+    {
+        $this->songpath = $songpath;
+
+        return $this;
+    }
+
+    /**
+     * Get songpath
+     *
+     * @return string 
+     */
+    public function getSongpath()
+    {
+        return $this->songpath;
     }
 }

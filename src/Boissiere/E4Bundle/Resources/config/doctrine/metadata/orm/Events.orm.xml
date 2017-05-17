@@ -9,5 +9,6 @@
     <field name="lieu" type="string" column="lieu" length="255" nullable="false"/>
     <field name="nomevent" type="string" column="nomEvent" length="255" nullable="false"/>
     <field name="description" type="text" column="description" length="65535" nullable="false"/>
+    <field name="picture" type="string" column="picture" length="255" nullable="false"/>
   </entity>
 </doctrine-mapping>

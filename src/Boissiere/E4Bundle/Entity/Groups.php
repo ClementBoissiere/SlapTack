@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Groups
  *
  * @ORM\Table(name="groups", uniqueConstraints={@ORM\UniqueConstraint(name="idsongs", columns={"idsongs"}), @ORM\UniqueConstraint(name="idGroup", columns={"idGroup"})}, indexes={@ORM\Index(name="idmembers", columns={"idmembers"})})
- * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\GroupsRepository")
+ * @ORM\Entity
  */
 class Groups
 {
