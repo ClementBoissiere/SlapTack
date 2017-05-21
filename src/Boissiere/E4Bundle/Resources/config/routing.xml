@@ -13,4 +13,7 @@
     <route id="boissiere_e4_planningPage" path="/planning">
         <default key="_controller">BoissiereE4Bundle:admin\Events:index</default>
     </route>
+    <route id="boissiere_e4_MembersPage" path="/members">
+        <default key="_controller">BoissiereE4Bundle:admin\Members:index</default>
+    </route>
 </routes>
