@@ -21,11 +21,11 @@ class MembersController extends Controller
     public function indexAction()
     {
         // Obtention du manager puis des Members
-        $events = $this->getManager()->loadAllMembers();
+        $members = $this->getManager()->loadAllMembers();
 
 
         $return = $this->render('members.html.twig',
-            array("arrayEvents" => $events));
+            array("arrayMembers" => $members));
         return $return;
     }
 }
