@@ -106,3 +106,8 @@ assetic:
         jquery:
             inputs:
             output: js/jquery.js
+
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: Boissiere\E4Bundle\Entity\Users

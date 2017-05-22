@@ -12,5 +12,12 @@ use Doctrine\ORM\EntityRepository;
  */
 class MembersRepository extends EntityRepository
 {
+    public function findAllMembers()
+    {
+        return $this->getEntityManager()
+            ->createQuery('Select em.namemember, em.description, em.instrument, em.picture
+                         FROM BoissiereE4Bundle:Members em')
+            ->getResult();
+    }
 
 }

@@ -11,7 +11,7 @@ class AssociationController extends Controller
     {
         $content = $this
             ->get('templating')
-            ->render('BoissiereE4Bundle:Association:association.html.twig');
+            ->render('Association/association.html.twig');
         return new Response($content);
     }
 }

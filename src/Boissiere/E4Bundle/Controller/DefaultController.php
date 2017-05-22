@@ -11,7 +11,7 @@ class DefaultController extends Controller
     {
         $content = $this
             ->get('templating')
-            ->render('BoissiereE4Bundle:Default:index.html.twig',
+            ->render('index.html.twig',
             array('nom' => "Debla"));
         return new Response($content);
     }

@@ -8,7 +8,7 @@
 
 namespace Boissiere\E4Bundle\Controller\admin;
 
-
+use Boissiere\E4Bundle\Manager\MemberManager;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class MembersController extends Controller
@@ -24,7 +24,7 @@ class MembersController extends Controller
         $events = $this->getManager()->loadAllMembers();
 
 
-        $return = $this->render('/admin/Events/planning.html.twig',
+        $return = $this->render('members.html.twig',
             array("arrayEvents" => $events));
         return $return;
     }
