@@ -2,154 +2,181 @@
 /*---------------------------ACCUEIL------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 body.bodyAcceuil {
-    background-image: url("images/Accueil.jpg");
-    background-attachment: scroll;
+  background-image: url("images/Accueil.jpg");
+  background-attachment: scroll;
 }
 .navbarConnexion {
-    margin-right: 1%;
-    margin-left: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
 }
-
 #navbarConnexionLeRetour {
-    position: relative;
-    margin-right: 5%;
+  position: relative;
+  margin-right: 5%;
 }
 div.divAcceuil {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 div#greyZone {
-    background-color: lightgray;
-    position: absolute;
-    height: 800px;
-    width: 100%;
-    margin-top: 5%;
-    opacity: 0.2;
+  background-color: lightgray;
+  position: absolute;
+  height: 800px;
+  width: 100%;
+  margin-top: 5%;
+  opacity: 0.2;
 }
 img.imgAcceuil {
-    height: 300px;
-    width: 450px;
-    border-radius: 2%;
+  height: 300px;
+  width: 450px;
+  border-radius: 2%;
 }
 img.imgAcceuil:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .TitreAcceuil {
-    margin-right: 30%;
-    background-color: rgba(255, 191, 128, 0.5);
+  margin-right: 30%;
+  background-color: rgba(255, 191, 128, 0.5);
 }
 /*----------------------------------------------------------------------------*/
 /*-------------------------ASSOCIATION----------------------------------------*/
 /*----------------------------------------------------------------------------*/
 div#slide1 {
-    background: url('images/imageAssoc2.jpg') center 0 no-repeat fixed;
+  background: url('images/imageAssoc2.jpg') center 0 no-repeat fixed;
 }
 div#slide2 {
-    background: url('images/imageAssoc3.jpg') center 0 no-repeat fixed;
+  background: url('images/imageAssoc3.jpg') center 0 no-repeat fixed;
 }
 div#slide3 {
-    background: url('images/imageAssoc5.png') center 0 no-repeat fixed;
+  background: url('images/imageAssoc5.png') center 0 no-repeat fixed;
 }
 /* Gestion du contenu */
 .slide_inside {
-    width: 980px;
-    margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
 #slide1 .slide_inside {
-    text-align: center;
+  text-align: center;
 }
 #slide2 .slide_inside p {
-    width: 500px;
-    text-align: justify;
+  width: 500px;
+  text-align: justify;
 }
 #slide3 .slide_inside {
-    margin-top: 50px;
-    padding: 50px;
+  margin-top: 50px;
+  padding: 50px;
 }
 #slide1,
 #slide2,
 #slide3 {
-    height: 1000px;
-    padding-top: 100px;
+  height: 1000px;
+  padding-top: 100px;
 }
 .goldenZoneAssoc {
-    z-index: 1;
-    position: fixed;
-    background-color: rgba(250, 250, 210, 0.5);
-    height: 700px;
-    width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(250, 250, 210, 0.5);
+  height: 700px;
+  width: 100%;
 }
 .titreAssoc {
-    color: lightgray;
-    opacity: 0.9;
+  color: lightgray;
+  opacity: 0.9;
 }
 .titreTarifs {
-    color: lightgray;
-    opacity: 0.9;
-    text-align: center;
+  color: lightgray;
+  opacity: 0.9;
+  text-align: center;
 }
-.imgTarifs{
-    height: 420px;
-    width: 650px;
-    margin-top:250px;
-    margin-left: 0px;
-    opacity: 0.8;
+.imgTarifs {
+  height: 420px;
+  width: 650px;
+  margin-top: 250px;
+  margin-left: 0px;
+  opacity: 0.8;
 }
-.horaire{
-    text-align: center;
-    margin-top: 200px;
+.horaire {
+  text-align: center;
+  margin-top: 200px;
 }
-.contact{
-    font-size: 16px;
-    margin-top: 30px;
+.contact {
+  font-size: 16px;
+  margin-top: 30px;
 }
-.map{
-    margin-top: 50px;
-    margin-left: 25px;
+.map {
+  margin-top: 50px;
+  margin-left: 25px;
 }
 #BienvenueAssoc {
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 5%;
-    z-index: 2;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: 2;
 }
 .textAssoc {
-    z-index: 2;
-    color: black;
-    text-align: justify;
-    font-family: Verdana;
-    font-size: 16px;
-    position: absolute;
-    margin-top: 10%;
-    background: none;
-    border: none;
+  z-index: 2;
+  color: black;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 10%;
+  background: none;
+  border: none;
 }
 .tableauTarifs {
-    z-index: 2;
-    position: absolute;
-    border-collapse: collapse;
-    width: 90%;
-    margin: 5%;
+  z-index: 2;
+  position: absolute;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
 }
 .tableauTarifs tr:nth-child(even) {
-    background-color: white;
+  background-color: white;
 }
 .tableauTarifs tr:hover {
-    background-color: rgba(250, 250, 210, 0.5);
+  background-color: rgba(250, 250, 210, 0.5);
 }
 .tableauTarifs th,
 .tableauTarifs td {
-    text-align: left;
-    padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 .tableauTarifs th.tableauEntete {
-    background-color: #E7A854;
-    color: white;
+  background-color: #E7A854;
+  color: white;
 }
-
 /*----------------------------------------------------------------------------*/
 /*-------------------------ASSOCIATION----------------------------------------*/
 /*----------------------------------------------------------------------------*/
-
-.bodyPlannning{
-    background-image: url("images/metronome.jpg");
+.bodyPlannning {
+  background-image: url("images/metronome.jpg");
+}
+#goldenZoneEvents {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-height: 48em;
+}
+.EventPic {
+  margin-left: 10em;
+}
+#titleEvents {
+  margin-top: 3em;
+  background-color: rgba(255, 191, 128, 0.5);
+}
+#tableEvents {
+  font-size: 16px;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------MEMBERS-----------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.bodyMembers {
+  background-image: url("images/joydivision1.jpg");
+}
+#titleMembers {
+  background-color: rgba(255, 191, 128, 0.5);
+  margin-right: 17em;
+}
+.membersDiv {
+  background-color: red;
+  margin-top: 0em;
+  margin-left: 0em;
 }

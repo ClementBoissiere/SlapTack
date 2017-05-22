@@ -2,10 +2,11 @@
 {% block title %}E4{% endblock %}
 {% block body %}
 <body class="bodyPlannning">
-{% block Navbar %}{% endblock %}
-<div class="col-lg-12 goldenZoneAssoc" id="goldenZoneEvents">
+
 <div class="container">
     <h1 id="titleEvents">Liste des évenements</h1>
+    {% for events in arrayEvents %}
+    <div class="col-lg-12 goldenZoneAssoc" id="goldenZoneEvents">
     <table class="table" id="tableEvents">
         <thead class="theadEvents">
         <th>Nom</th>
@@ -15,22 +16,28 @@
 
         </thead>
         <tbody>
-        {% for events in arrayEvents %}
+
             <tr>
-                <td class="eventsTable">{{ events.nomevent }}</td>
+                <td class="eventsTable eventsName">{{ events.nomevent }}</td>
                 <td class="eventsTable">{{ events.lieu }}</td>
                 <td class="eventsTable">{{ events.datedebut|date('d-m-Y') }}</td>
                 <td >{{ events.datefin|date('d-m-Y') }}</td>
             </tr>
             <tr>
+                <td class="eventsPictureTable" colspan="4"><img src="{{ asset('bundles/boissieree4/less/images/Events/'~events.picture|e) }}" class="EventPic"></td>
+            </tr>
+            <tr>
                 <td class="eventsTable" colspan="4">{{ events.description }}</td>
             </tr>
-        {% else %}
-            <tr><td>Aucun Evenement n'a été trouvé.</td></tr>
-        {% endfor %}
         </tbody>
     </table>
-</div>
+    </div>
+        {% else %}
+            <tr><td>Aucun Evenement n'a été trouvé.</td></tr>
+        </tbody>
+    </table>
+            </div>
+    {% endfor %}
 </div>
 {% endblock %}
 
