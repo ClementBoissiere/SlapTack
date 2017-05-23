@@ -16,4 +16,7 @@
     <route id="boissiere_e4_MembersPage" path="/members">
         <default key="_controller">BoissiereE4Bundle:admin\Members:index</default>
     </route>
+    <route id="boissiere_e4_SongsPage" path="/songs">
+        <default key="_controller">BoissiereE4Bundle:admin\Songs:index</default>
+    </route>
 </routes>
