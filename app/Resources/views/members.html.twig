@@ -2,21 +2,25 @@
 {% block title %}E4{% endblock %}
 {% block body %}
     <body class="bodyMembers">
-    <div class="col-lg-12 goldenZoneAssoc" id="goldenZoneEvents">
         <div class="container">
             <h1 id="titleMembers">Liste des Membres permanents</h1>
-            <div class="col-lg-12 membersDiv">
-                <div class="col-lg-4">
+            {% for members in arrayMembers %}
+            <div class="col-lg-12 goldenZoneMembers">
+                <div class="col-lg-6">
+                    <img src="{{ asset('bundles/boissieree4/less/images/Members/'~members.picture|e) }}" class="MemberPic">
 
                 </div>
-
-                {#{% for members in arrayMembers %}#}
-                {##}
-                {#{% else %}#}
-                    {#<tr><td>Aucun Membre n'a été trouvé.</td></tr>#}
-                {#{% endfor %}#}
+                <div class="col-lg-6 membersDiv">
+                    <h2>Nom : {{ members.namemember }}</h2>
+                    <br>
+                    <p>Description : {{ members.description }}</p>
+                    <p>Instrument : {{ members.instrument }}</p>
+                </div>
             </div>
+                {% else %}
+                    <tr><td>Aucun Membre n'a été trouvé.</td></tr>
         </div>
-    </div>
+                {% endfor %}
+        </div>
 
 {% endblock %}
