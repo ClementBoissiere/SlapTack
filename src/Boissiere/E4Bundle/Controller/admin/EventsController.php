@@ -26,7 +26,7 @@ class EventsController extends Controller
         $events = $this->getManager()->loadAllEvents();
 
 
-        $return = $this->render('/admin/Events/planning.html.twig',
+        $return = $this->render('planning.html.twig',
             array("arrayEvents" => $events));
         return $return;
     }

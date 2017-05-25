@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/admin/Events/planning.html.twig" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/planning.html.twig" line="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86cf3d81-4f43-498b-89b7-5299aff0fee4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/songs.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/SongsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/upload/The Temptations - Papa Was A Rolling Stone.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/addMember.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/AddMemberController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MembersType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/Association/association.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/association.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/admin/Events/planning.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/planning.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/members.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/members.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/EventsController.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/EventsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/MembersController.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/MembersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Users.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.css" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,63 +86,92 @@
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="blog" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="members.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/members.html.twig">
+    <leaf>
+      <file leaf-file-name="addMember.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/addMember.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="79" />
+            <state relative-caret-position="368">
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="planning.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/Events/planning.html.twig">
+      <file leaf-file-name="AddMemberController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/AddMemberController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="69">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <folding>
+                <element signature="e#140#195#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="songs.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/songs.html.twig">
+      <file leaf-file-name="MembersType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MembersType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="23">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <element signature="e#44#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Members.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="e#47#101#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUploader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="226" column="17" lean-forward="false" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
+            <state relative-caret-position="276">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="213" column="1" lean-forward="false" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="association.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/Association/association.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="253">
+              <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -148,31 +187,31 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:schema:update filter=Users" />
-      <command text="s doctrine:schema:update --force " />
-      <command text="s debug:router " />
-      <command text="s doctrine:schema:update --force " />
-      <command text="s server:run " />
-      <command text="git commit -am &quot;Je veux ajouter mes images&quot;" />
-      <command text="git status" />
-      <command text="s assetic:install" />
-      <command text="s assets:install " />
-      <command text="git commit -am &quot;Mis a jour des images reussi, essai mise en place des images Members&quot;" />
-      <command text="s assets:install " />
-      <command text="git commit -am &quot;Page planning terminer pour de vrai + emplacement d'image valable&quot;" />
-      <command text="git commit -am Page planning terminer pour de vrai + emplacement d'image valable" />
-      <command text="git commit -a -m &quot;Page planning terminer pour de vrai + emplacement d'image valable&quot;" />
-      <command text="git commit -am &quot;Mis a jour des images reussi, essai mise en place des images Members&quot;" />
-      <command text="git commit -am &quot;Page planning terminer pour de vrai et emplacement d'image valable&quot;&quot;" />
-      <command text="git commit -am &quot;page planning terminer pour de vrai et emplacement d'image valable&quot;&quot;" />
-      <command text="git commit -am &quot;Page planning terminer pour de vrai et emplacement dimage valable&quot;&quot;" />
-      <command text="s server:run " />
-      <command text="git commit -am &quot;Page Members fini&quot;" />
-      <command text="s assets:install " />
       <command text="s assets:install --force" />
       <command text="s assets:install --symlink" />
       <command text="s server:run " />
       <command text="s assets:install --symlink" />
+      <command text="git commit -am &quot;FrontEnd terminer dans la majeure partie. Faire lupload maintenant&quot;" />
+      <command text="s server:run " />
+      <command text="s doctrine:generate:entities " />
+      <command text="s doctrine:generate:entities Members" />
+      <command text="s doctrine:generate:entities BoissiereE4Bundle" />
+      <command text="app/console doctrine:schema:update –force" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s server:run " />
+      <command text="s doctrine:generate:form Members" />
+      <command text="s doctrine:generate:form BoissiereE4Bundle/Members" />
+      <command text="s doctrine:generate:form blog/Boissiere/E4Bundle/Entity/Members" />
+      <command text="s doctrine:generate:form BoissiereE4Bundle/Entity/Members" />
+      <command text="s doctrine:generate:form BoissiereE4Bundle:Members" />
+      <command text="s cache:clear" />
+      <command text="php -m" />
+      <command text="php -v" />
+      <command text="php -m" />
+      <command text="s server:stop " />
+      <command text="s server:run " />
+      <command text="s server:stop " />
+      <command text="s server:run " />
     </commandsHistory>
   </component>
   <component name="FrameworkRootSettings" id="Symfony2">
@@ -200,13 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Producteur.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/FilmRepository.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/UsersRepository.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/SongsRepository.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Songs.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/PlanningController.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/EventsController.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Events.orm.xml" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/admin/Events/planning.html.twig" />
@@ -217,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Groups.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Manager/EventManager.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/GroupsRepository.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/EventsController.php" />
         <option value="$PROJECT_DIR$/web/bundles/boissieree4/less/styles.css" />
         <option value="C:/MAMP/htdocs/testBoissiere.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
@@ -227,30 +258,38 @@
         <option value="$PROJECT_DIR$/app/Resources/views/admin/planning.html.twig" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/EventsRepository.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Members.orm.xml" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/Association/association.html.twig" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Users.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Manager/MemberController.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/MembersRepository.php" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/MembersController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/admin/Events/planning.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/members.html.twig" />
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/SongsController.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less" />
         <option value="$PROJECT_DIR$/app/Resources/views/songs.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less" />
+        <option value="$PROJECT_DIR$/app/Resources/views/members.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/MembersController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/EventsController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MemberPictureType.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/addMember.html.twig" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/MemberPictureUploader.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MembersType.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/AddMemberController.php" />
+        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
       </list>
     </option>
   </component>
@@ -319,7 +358,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,10 +449,6 @@
               <option name="myItemId" value="boissieree4" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -475,112 +509,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boissiere" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="E4Bundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boissiere" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="E4Bundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles.less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boissiere" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="E4Bundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -636,7 +564,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Manager" />
+              <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,40 +711,11 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Events" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Association" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -824,28 +723,29 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/routing.yml&#10;confi&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;security.y&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/security.yml&#10;config.y&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;BoissiereE&#9;null&#9;null&#10;app&#9;null&#9;null&#10;sql&#9;FILE&#9;file://C:/Users/Debla-PC/.PhpStorm2016.3/config/consoles/db/c5367ec5-4dc1-4570-bfc1-87733a67d9cd/console.sql&#10;TWIG CL&#9;null&#9;null&#10;TWIG TEMPLATE&#9;null&#9;null&#10;twig_template&#9;null&#9;null&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;dat&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;config&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;FileLoader.php&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php&#10;fileLoad&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/FilesLoader.php&#10;compose&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/composer.json&#10;appKer&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/AppKernel.php" />
+    <property name="SearchEverywhereHistoryKey" value="php.i&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/doctrine/cache/tests/travis/php.ini&#10;service.yml&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/services.yml&#10;confi&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;rout&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/routing.yml&#10;security.y&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/security.yml&#10;config.y&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;BoissiereE&#9;null&#9;null&#10;app&#9;null&#9;null&#10;sql&#9;FILE&#9;file://C:/Users/Debla-PC/.PhpStorm2016.3/config/consoles/db/c5367ec5-4dc1-4570-bfc1-87733a67d9cd/console.sql&#10;TWIG CL&#9;null&#9;null&#10;TWIG TEMPLATE&#9;null&#9;null&#10;twig_template&#9;null&#9;null&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;dat&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;config&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/config/config.yml&#10;FileLoader.php&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php&#10;fileLoad&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/FilesLoader.php&#10;compose&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/composer.json&#10;appKer&#9;FILE&#9;file://C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/php/php704vc14x86x170307113642/blog/app/AppKernel.php" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="last_opened_file_path" value="C:/MAMP/htdocs/testBoissiere.php" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current" value="HTML Table" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="Oracle&#10;TSQL&#10;GenericSQL&#10;MySQL" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\admin" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\web\bundles\boissieree4\upload\songs" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\admin\Events" />
+      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\default" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Resources\public\upload" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\web\bundles\boissieree4\less" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\vendor\symfony\symfony\src\Symfony\Bridge\Twig\Resources\views\Form" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Resources\views\Events" />
       <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\Association" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\admin\Events" />
-      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\admin" />
-      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views" />
-      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\app\Resources\views\default" />
-      <recent name="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php704vc14x86x170307113642\blog\src\Boissiere\E4Bundle\Resources\views\admin" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.Unnamed">
@@ -959,26 +859,38 @@
       <workItem from="1495469820608" duration="13361000" />
       <workItem from="1495522040518" duration="650000" />
       <workItem from="1495531351516" duration="5884000" />
-      <workItem from="1495557956117" duration="7628000" />
+      <workItem from="1495557956117" duration="8319000" />
+      <workItem from="1495573736661" duration="633000" />
+      <workItem from="1495713140740" duration="16353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172284000" />
+    <option name="totallyTimeSpent" value="189961000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630435" sideWeight="0.50572914" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630435" sideWeight="0.49427083" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3576087" sideWeight="0.49427083" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -990,9 +902,32 @@
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3152174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34021738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630435" sideWeight="0.50572914" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3630435" sideWeight="0.49427083" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3152174" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34021738" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45093945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1007,82 +942,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MAMP/htdocs/testBoissiere.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/views/Association/association.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ContainerRuntimeLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/cache/dev/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15594">
-          <caret line="695" column="23" lean-forward="false" selection-start-line="695" selection-start-column="23" selection-end-line="695" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c5367ec5-4dc1-4570-bfc1-87733a67d9cd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Events.orm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Groups.orm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Songs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2963">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,13 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1158,31 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="107" column="18" lean-forward="false" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1191,21 +1026,6 @@
         <state relative-caret-position="-575">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/UsersRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1226,18 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/MembersRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <marker date="1495471361744" expanded="true" signature="373:494" ph="Select mem.d... BoissiereE4Bundle" />
-            <marker date="1495471361744" expanded="true" signature="373:495" ph="Select em.na... BoissiereE4Bundle" />
-            <marker date="1495471361744" expanded="true" signature="373:523" ph="Select mem.d... BoissiereE4Bundle" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/EventsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1248,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Manager/EventManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1263,25 +1063,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/images/Members/bowie.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/planning.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="391">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/songs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="1012">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5198">
+          <caret line="226" column="17" lean-forward="false" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4899">
+          <caret line="213" column="1" lean-forward="false" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Songs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1296,24 +1136,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/MembersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="323">
+          <caret line="44" column="46" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="e#140#178#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/association.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/EventsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="506">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php">
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/SongsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1326,55 +1200,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/images/Members/bowie.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Association/association.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="184">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/Events/planning.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Core/Type/FormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="416">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MemberPictureType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/AssociationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/UsersRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/members.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="79" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/public/less/styles.less">
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/MembersRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="213" column="1" lean-forward="false" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+        <state relative-caret-position="235">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <marker date="1495471361744" expanded="true" signature="373:495" ph="Select em.na... BoissiereE4Bundle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/songs.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/boissieree4/less/styles.less">
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="226" column="17" lean-forward="false" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
+        <state relative-caret-position="387">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/MembersType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#44#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/addMember.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/AddMemberController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#140#195#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#47#101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>

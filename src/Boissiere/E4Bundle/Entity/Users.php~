@@ -2,45 +2,19 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
+use FOS\UserBundle\Entity\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Users
- *
- * @ORM\Table(name="users", indexes={@ORM\Index(name="idUser", columns={"idUser"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Boissiere\E4Bundle\Entity\UsersRepository")
+ * @ORM\Table(name="users")
  */
-class Users
+class Users extends BaseUser
 {
     /**
-     * @var integer
-     *
-     * @ORM\Column(name="idUser", type="integer", nullable=false)
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="IDENTITY")
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $iduser;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="username", type="string", length=255, nullable=false)
-     */
-    private $username;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="pasword", type="string", length=255, nullable=false)
-     */
-    private $pasword;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="mail", type="string", length=255, nullable=false)
-     */
-    private $mail;
-
-
+    protected $id;
 }

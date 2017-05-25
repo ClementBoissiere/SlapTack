@@ -2,6 +2,7 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -63,7 +64,16 @@ class Events
      */
     private $picture;
 
-
+    public function __construct()
+    {
+        $this->idevent         = new ArrayCollection();
+        $this->datedebut       = new \DateTime();
+        $this->datefin         = new \DateTime();
+        $this->lieu            = new ArrayCollection();
+        $this->nomevent        = new ArrayCollection();
+        $this->description     = new ArrayCollection();
+        $this->picture         = new ArrayCollection();
+    }
 
     /**
      * Get idevent

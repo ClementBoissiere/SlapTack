@@ -2,6 +2,10 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
+
+
+use Symfony\Component\Validator\Constraints as Assert;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -49,7 +53,20 @@ class Members
      */
     private $picture;
 
+    /**
+     * @Assert\File(maxSize="1024k")
+     */
+    public $file;
 
+
+//    public function __construct()
+//    {
+//        $this->idmember        = new ArrayCollection();
+//        $this->namemember      = new ArrayCollection();
+//        $this->instrument      = new ArrayCollection();
+//        $this->description     = new ArrayCollection();
+//        $this->picture         = new File('bundles/boissieree4/upload/memberPicture/');
+//    }
 
     /**
      * Get idmember
@@ -149,6 +166,30 @@ class Members
      * @return string 
      */
     public function getPicture()
+    {
+        return $this->picture;
+    }
+
+
+    /**
+     * Set file
+     *
+     * @param string $file
+     * @return Members
+     */
+    public function setFile($picture)
+    {
+        $this->picture = $picture;
+
+        return $this;
+    }
+
+    /**
+     * Get file
+     *
+     * @return string
+     */
+    public function getFile()
     {
         return $this->picture;
     }

@@ -50,4 +50,106 @@ class Songs
     private $songpath;
 
 
+
+    /**
+     * Get idsong
+     *
+     * @return integer 
+     */
+    public function getIdsong()
+    {
+        return $this->idsong;
+    }
+
+    /**
+     * Set namesong
+     *
+     * @param string $namesong
+     * @return Songs
+     */
+    public function setNamesong($namesong)
+    {
+        $this->namesong = $namesong;
+
+        return $this;
+    }
+
+    /**
+     * Get namesong
+     *
+     * @return string 
+     */
+    public function getNamesong()
+    {
+        return $this->namesong;
+    }
+
+    /**
+     * Set style
+     *
+     * @param string $style
+     * @return Songs
+     */
+    public function setStyle($style)
+    {
+        $this->style = $style;
+
+        return $this;
+    }
+
+    /**
+     * Get style
+     *
+     * @return string 
+     */
+    public function getStyle()
+    {
+        return $this->style;
+    }
+
+    /**
+     * Set idgroup
+     *
+     * @param integer $idgroup
+     * @return Songs
+     */
+    public function setIdgroup($idgroup)
+    {
+        $this->idgroup = $idgroup;
+
+        return $this;
+    }
+
+    /**
+     * Get idgroup
+     *
+     * @return integer 
+     */
+    public function getIdgroup()
+    {
+        return $this->idgroup;
+    }
+
+    /**
+     * Set songpath
+     *
+     * @param string $songpath
+     * @return Songs
+     */
+    public function setSongpath($songpath)
+    {
+        $this->songpath = $songpath;
+
+        return $this;
+    }
+
+    /**
+     * Get songpath
+     *
+     * @return string 
+     */
+    public function getSongpath()
+    {
+        return $this->songpath;
+    }
 }

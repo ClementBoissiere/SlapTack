@@ -7,3 +7,13 @@ services:
     #service_name:
     #    class: AppBundle\Directory\ClassName
     #    arguments: ['@another_service_name', 'plain_value', '%parameter_name%']
+    MemberPicture_uploader:
+          class: Boissiere\E4Bundle\FileUploader
+          arguments: ['%memberPicture_directory%']
+    EventPicture_uploader:
+          class: BoissiereE4Bundle\FileUploader
+          arguments: ['%eventPicture_directory%']
+
+    Songs_uploader:
+          class: BoissiereE4Bundle\FileUploader
+          arguments: ['%songs_directory%']

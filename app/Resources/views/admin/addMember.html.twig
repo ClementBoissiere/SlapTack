@@ -1,0 +1,22 @@
+{% extends 'layout.html.twig' %}
+{% block title %}E4{% endblock %}
+{% block body %}
+
+{% if user.picture %}
+    <img src="{{ asset(user.getWebPath()) }}" />
+{% else %}
+    Pas d'image de profil chargée !
+{% endif %}
+
+<h1>Charger une image de profil</h1>
+
+<form action="#" method="post" {{ form_enctype(form) }}>
+    {{ form_row(form.namemember) }}
+    {{ form_row(form.instrument) }}
+    {{ form_row(form.description) }}
+    {{ form_widget(form) }}
+
+    <input type="submit" value="Uploader" />
+</form>
+
+{% endblock %}
