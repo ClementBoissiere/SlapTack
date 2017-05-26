@@ -15,6 +15,11 @@
                     <br>
                     <p>Description : {{ members.description }}</p>
                     <p>Instrument : {{ members.instrument }}</p>
+                    <p> {% if is_granted('ROLE_ADMIN') %}
+                            <a href="/addMember"><span class="glyphicon glyphicon-plus"></span></a>
+                            <a href="/editMember/{id:members.idmember} "><span class="glyphicon glyphicon-edit"></span></a>
+                            <a href="/deleteMember/{id:members.idmember}"><span class="glyphicon glyphicon-minus"></span></a>
+                        {% endif %}</p>
                 </div>
             </div>
                 {% else %}
@@ -22,5 +27,6 @@
         </div>
                 {% endfor %}
         </div>
+
     </body>
 {% endblock %}

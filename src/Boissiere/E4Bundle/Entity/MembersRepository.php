@@ -15,9 +15,16 @@ class MembersRepository extends EntityRepository
     public function findAllMembers()
     {
         return $this->getEntityManager()
-            ->createQuery('Select em.namemember, em.description, em.instrument, em.picture
+            ->createQuery('Select em.idmember, em.namemember, em.description, em.instrument, em.picture
                          FROM BoissiereE4Bundle:Members em')
             ->getResult();
     }
+        public function findMember($id){
+        return $this->getEntityManager()
+            ->createQuery('Select em.idmember, em.namemember, em.description, em.instrument, em.picture
+                         FROM BoissiereE4Bundle:Members em
+                         WHERE em.idmember=:id')->setParameter('id',$id)
+            ->getResult();
 
+      }
 }

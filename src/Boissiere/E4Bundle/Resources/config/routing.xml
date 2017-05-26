@@ -22,4 +22,7 @@
     <route id="boissiere_e4_AddMemberPage" path="/addMember">
         <default key="_controller">BoissiereE4Bundle:admin\AddMember:index</default>
     </route>
+    <route id="boissiere_e4_editMemberPage" path="/editMember/{id}">
+        <default key="_controller">BoissiereE4Bundle:admin\EditMember:index</default>
+    </route>
 </routes>

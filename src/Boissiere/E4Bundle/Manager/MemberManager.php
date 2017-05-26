@@ -8,7 +8,8 @@
 
 namespace Boissiere\E4Bundle\Manager;
 
-
+use Boissiere\E4Bundle\Entity\Members;
+use Boissiere\E4Bundle\Entity\MembersRepository;
 
 
 class MemberManager
@@ -22,13 +23,10 @@ class MemberManager
         $this->repository = $em->getRepository('BoissiereE4Bundle:Members');
     }
 
-    public function loadAllMembers($orderedByDate = true)
-    {
-        if ($orderedByDate)
-            $member = $this->repository->findAllMembers();
-        else
-            $member = $this->repository->findAll();
 
+    public function loadMember($id){
+
+        $member = $this->repository->findMember($id);
         return $member;
     }
 }
