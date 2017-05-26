@@ -59,6 +59,7 @@ class Members
     public $file;
 
 
+
 //    public function __construct()
 //    {
 //        $this->idmember        = new ArrayCollection();

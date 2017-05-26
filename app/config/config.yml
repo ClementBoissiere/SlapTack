@@ -7,7 +7,7 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
-    memberPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/upload/memberPicture'
+    memberPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/less/images/Members'
     eventPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/upload/eventPicture'
     songs_directory: '%kernel.root_dir%/../web/bundles/boissieree4/upload/songs'
 

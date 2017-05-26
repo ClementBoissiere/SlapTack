@@ -9,6 +9,8 @@
 namespace Boissiere\E4Bundle\Manager;
 
 
+
+
 class MemberManager
 {
     protected $entityManager;
@@ -23,10 +25,10 @@ class MemberManager
     public function loadAllMembers($orderedByDate = true)
     {
         if ($orderedByDate)
-            $events = $this->repository->findAllMembers();
+            $member = $this->repository->findAllMembers();
         else
-            $events = $this->repository->findAll();
+            $member = $this->repository->findAll();
 
-        return $events;
+        return $member;
     }
 }

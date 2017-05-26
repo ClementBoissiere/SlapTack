@@ -26,10 +26,9 @@ class AddMemberController extends Controller
             $file = $member->getPicture();
             $fileName = $this->get('MemberPicture_uploader')->upload($file);
             $member->setPicture($fileName);
-            //                $em = $this->getDoctrine()->getEntityManager();
-//                $usr->uploadProfilePicture();
-//                $em->persist($usr);
-//                $em->flush();
+            $em  = $this->getDoctrine()->getManager();
+                $em->persist($member);
+                $em->flush();
 //                $this->redirect($this->generateUrl('blog_BoissiereE4Bundle_addMember'));
             return $this->redirect($this->generateUrl('boissiere_e4_MembersPage'));
         }
@@ -38,20 +37,5 @@ class AddMemberController extends Controller
             'form' => $form->createView(),
             'user' => $member,
         ));
-//        $usr = $this->getUser();
-//        $form = $this->createForm(new MemberPictureType(), $usr);
-//        if ($this->getRequest()->getMethod() === 'POST') {
-//            $form->bindRequest($this->getRequest());
-//            if ($form->isValid()) {
-//            }
-//    }
-//
-//        return $this->render('Boissieree4Bundle:addMember.html.twig',
-//            array (
-//                'user' => $usr,
-//                'form' => $form->createView()
-//            )
-//        );
-//    }
     }
 }
