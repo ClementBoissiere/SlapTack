@@ -17,7 +17,6 @@ class MembersController extends Controller
 
     public function indexAction()
     {
-        // Obtention du manager puis des Members
         $members = $this->getDoctrine()->getManager()->getRepository('BoissiereE4Bundle:Members')->findAll();
 
         $return = $this->render('members.html.twig',

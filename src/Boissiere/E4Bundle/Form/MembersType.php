@@ -19,7 +19,7 @@ class MembersType extends AbstractType
             ->add('namemember')
             ->add('instrument')
             ->add('description')
-            ->add('picture', FileType::class, array('label' => 'Votre image (.JPG)',
+            ->add('picture', FileType::class, array('label' => 'Votre image (.JPG) | Dimension 480*360.',
                                                     'data_class' => null)
             );
     }

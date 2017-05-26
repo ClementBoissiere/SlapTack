@@ -196,3 +196,36 @@ div#slide3 {
   background-image: url("images/2560x1440-2 (2).jpg");
   background-attachment: fixed;
 }
+#titleSongs {
+  background-color: rgba(255, 191, 128, 0.7);
+  margin-right: 18em;
+  margin-top: 3em;
+}
+.goldenZoneSongs {
+  background-color: rgba(255, 230, 150, 0.5);
+  margin-top: 3em;
+}
+.tableSongs th {
+  font-size: 18px;
+}
+.tableSongs tr:nth-child(even) {
+  background-color: rgba(255, 191, 128, 0.5);
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------FORMULAIRE--------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.bodyFormulaire {
+  background-image: url("images/39686807-acoustic-guitar-wallpapers.jpg");
+  background-attachment: fixed;
+  font-size: 18px;
+}
+#AddMemberTitle {
+  background-color: rgba(255, 191, 128, 0.7);
+}
+.goldenZoneFormulaire {
+  background-color: rgba(250, 250, 210, 0.5);
+  position: absolute;
+  top: 10em;
+  bottom: 0em;
+  padding-bottom: 1em;
+}
