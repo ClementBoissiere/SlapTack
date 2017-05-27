@@ -12,12 +12,17 @@
 <body class="bodyAcceuil">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    <a href="/register" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">S'inscrire</a>
-    <a href="/login" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion">
-        <span class="glyphicon glyphicon-log-in"></span> Connexion
-    </a>
+    {% if not is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+        <a href="/register" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">S'incrire</a>
+        <a href="/login" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion">
+            <span class="glyphicon glyphicon-log-in"></span> Connexion
+        </a>
+    {% else %}
+        <a href="/logout" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">
+            <span class="glyphicon glyphicon-log-out"></span>Deconnexion</a>
+    {% endif %}
     <a href="/"> <p class="navbar-text navbar-left">SLAP TRACK</p></a>
-    <p class="navbar-text navbar-right">Bienvenue</p>
+    <p class="navbar-text navbar-right">Bienvenue {% if is_granted('ROLE_ADMIN') %} Admin {% elseif is_granted('ROLE_USER') %} ! {% endif %}</p>
 </nav>
 
 <div class="col-lg-12" id="greyZone"></div>
