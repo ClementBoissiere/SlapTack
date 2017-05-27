@@ -16,7 +16,7 @@ class EventsRepository extends EntityRepository
     public function findAllOrderedByDate()
     {
         return $this->getEntityManager()
-          ->createQuery('Select ev.datedebut, ev.description, ev.datefin, ev.lieu, ev.nomevent, ev.picture 
+          ->createQuery('Select ev.idevent, ev.datedebut, ev.description, ev.datefin, ev.lieu, ev.nomevent, ev.picture 
                          FROM BoissiereE4Bundle:Events ev
                          ORDER BY ev.datedebut ASC')
             ->getResult();

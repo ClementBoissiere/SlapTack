@@ -13,6 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Boissiere\E4Bundle\Entity\Members;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Boissiere\E4Bundle\Form\MembersType;
+use Boissiere\E4Bundle\FileUploader;
 
 class AddMemberController extends Controller
 {

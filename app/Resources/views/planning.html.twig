@@ -13,7 +13,12 @@
         <th>Lieu</th>
         <th>Date début</th>
         <th>Date fin</th>
-
+        {% if is_granted('ROLE_ADMIN') %}<th>
+                <a href="{{ path('boissiere_e4_AddEventPage') }}"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{{ path('boissiere_e4_editEventPage',{'id':events.idevent}) }}"><span class="glyphicon glyphicon-edit"></span></a>
+                <a href="{{ path('boissiere_e4_deleteEventPage',{'id':events.idevent}) }}"><span class="glyphicon glyphicon-minus"></span></a>
+            {% endif %}
+        </th>
         </thead>
         <tbody>
 
@@ -24,10 +29,10 @@
                 <td >{{ events.datefin|date('d-m-Y') }}</td>
             </tr>
             <tr>
-                <td class="eventsPictureTable" colspan="4"><img src="{{ asset('bundles/boissieree4/less/images/Events/'~events.picture|e) }}" class="EventPic"></td>
+                <td class="eventsPictureTable" colspan="5"><img src="{{ asset('bundles/boissieree4/less/images/Events/'~events.picture|e) }}" class="EventPic"></td>
             </tr>
             <tr>
-                <td class="eventsTable" colspan="4">{{ events.description }}</td>
+                <td class="eventsTable" colspan="5">{{ events.description }}</td>
             </tr>
         </tbody>
     </table>

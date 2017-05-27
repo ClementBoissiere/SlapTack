@@ -8,7 +8,7 @@ imports:
 parameters:
     locale: en
     memberPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/less/images/Members'
-    eventPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/upload/eventPicture'
+    eventPicture_directory: '%kernel.root_dir%/../web/bundles/boissieree4/less/images/Events'
     songs_directory: '%kernel.root_dir%/../web/bundles/boissieree4/upload/songs'
 
 framework:

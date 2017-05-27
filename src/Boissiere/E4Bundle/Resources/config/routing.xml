@@ -28,4 +28,13 @@
     <route id="boissiere_e4_deleteMemberPage" path="/deleteMember/{id}">
         <default key="_controller">BoissiereE4Bundle:admin\DeleteMember:index</default>
     </route>
+    <route id="boissiere_e4_AddEventPage" path="/addEvent">
+        <default key="_controller">BoissiereE4Bundle:admin\AddEvent:index</default>
+    </route>
+    <route id="boissiere_e4_editEventPage" path="/editEvent/{id}">
+        <default key="_controller">BoissiereE4Bundle:admin\EditEvent:index</default>
+    </route>
+    <route id="boissiere_e4_deleteEventPage" path="/deleteEvent/{id}">
+        <default key="_controller">BoissiereE4Bundle:admin\DeleteEvent:index</default>
+    </route>
 </routes>

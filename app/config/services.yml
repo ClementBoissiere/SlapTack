@@ -10,10 +10,11 @@ services:
     MemberPicture_uploader:
           class: Boissiere\E4Bundle\FileUploader
           arguments: ['%memberPicture_directory%']
+
     EventPicture_uploader:
-          class: BoissiereE4Bundle\FileUploader
+          class: Boissiere\E4Bundle\FileUploader
           arguments: ['%eventPicture_directory%']
 
     Songs_uploader:
-          class: BoissiereE4Bundle\FileUploader
+          class: Boissiere\E4Bundle\FileUploader
           arguments: ['%songs_directory%']

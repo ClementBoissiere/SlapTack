@@ -63,17 +63,17 @@ class Events
      * @ORM\Column(name="picture", type="string", length=255, nullable=false)
      */
     private $picture;
-
-    public function __construct()
-    {
-        $this->idevent         = new ArrayCollection();
-        $this->datedebut       = new \DateTime();
-        $this->datefin         = new \DateTime();
-        $this->lieu            = new ArrayCollection();
-        $this->nomevent        = new ArrayCollection();
-        $this->description     = new ArrayCollection();
-        $this->picture         = new ArrayCollection();
-    }
+//
+//    public function __construct()
+//    {
+//        $this->idevent         = new ArrayCollection();
+//        $this->datedebut       = new \DateTime();
+//        $this->datefin         = new \DateTime();
+//        $this->lieu            = new ArrayCollection();
+//        $this->nomevent        = new ArrayCollection();
+//        $this->description     = new ArrayCollection();
+//        $this->picture         = new ArrayCollection();
+//    }
 
     /**
      * Get idevent
