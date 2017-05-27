@@ -7,9 +7,25 @@
     <id name="idsong" type="integer" column="idSong">
       <generator strategy="IDENTITY"/>
     </id>
-    <field name="namesong" type="string" column="nameSong" length="255" nullable="false"/>
-    <field name="style" type="string" column="style" length="255" nullable="false"/>
-    <field name="idgroup" type="integer" column="idGroup" nullable="false"/>
-    <field name="songpath" type="string" column="songPath" length="255" nullable="false"/>
+    <field name="namesong" type="string" column="nameSong" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="style" type="string" column="style" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="idgroup" type="string" column="idGroup" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="songpath" type="string" column="songPath" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
   </entity>
 </doctrine-mapping>

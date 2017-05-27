@@ -2,7 +2,6 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
-use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -14,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Songs
 {
     /**
-     * @var integer
+     * @var int
      *
      * @ORM\Column(name="idSong", type="integer", nullable=false)
      * @ORM\Id
@@ -37,9 +36,9 @@ class Songs
     private $style;
 
     /**
-     * @var integer
+     * @var string
      *
-     * @ORM\Column(name="idGroup", type="integer", nullable=false)
+     * @ORM\Column(name="idGroup", type="string", length=255, nullable=false)
      */
     private $idgroup;
 
@@ -50,110 +49,5 @@ class Songs
      */
     private $songpath;
 
-    /**
-     * @Assert\File(maxSize="10M")
-     */
-    public $file;
 
-    /**
-     * Get idsong
-     *
-     * @return integer 
-     */
-    public function getIdsong()
-    {
-        return $this->idsong;
-    }
-
-    /**
-     * Set namesong
-     *
-     * @param string $namesong
-     * @return Songs
-     */
-    public function setNamesong($namesong)
-    {
-        $this->namesong = $namesong;
-
-        return $this;
-    }
-
-    /**
-     * Get namesong
-     *
-     * @return string 
-     */
-    public function getNamesong()
-    {
-        return $this->namesong;
-    }
-
-    /**
-     * Set style
-     *
-     * @param string $style
-     * @return Songs
-     */
-    public function setStyle($style)
-    {
-        $this->style = $style;
-
-        return $this;
-    }
-
-    /**
-     * Get style
-     *
-     * @return string 
-     */
-    public function getStyle()
-    {
-        return $this->style;
-    }
-
-    /**
-     * Set idgroup
-     *
-     * @param integer $idgroup
-     * @return Songs
-     */
-    public function setIdgroup($idgroup)
-    {
-        $this->idgroup = $idgroup;
-
-        return $this;
-    }
-
-    /**
-     * Get idgroup
-     *
-     * @return integer 
-     */
-    public function getIdgroup()
-    {
-        return $this->idgroup;
-    }
-
-    /**
-     * Set songpath
-     *
-     * @param string $songpath
-     * @return Songs
-     */
-    public function setSongpath($songpath)
-    {
-        $this->songpath = $songpath;
-
-        return $this;
-    }
-
-    /**
-     * Get songpath
-     *
-     * @return string 
-     */
-    public function getSongpath()
-    {
-        return $this->songpath;
-    }
 }

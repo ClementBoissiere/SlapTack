@@ -2,7 +2,6 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
-use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -14,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Songs
 {
     /**
-     * @var integer
+     * @var int
      *
      * @ORM\Column(name="idSong", type="integer", nullable=false)
      * @ORM\Id
@@ -37,9 +36,9 @@ class Songs
     private $style;
 
     /**
-     * @var integer
+     * @var string
      *
-     * @ORM\Column(name="idGroup", type="integer", nullable=false)
+     * @ORM\Column(name="idGroup", type="string", length=255, nullable=false)
      */
     private $idgroup;
 
@@ -50,15 +49,12 @@ class Songs
      */
     private $songpath;
 
-    /**
-     * @Assert\File(maxSize="1500000k")
-     */
-    public $file;
+
 
     /**
-     * Get idsong
+     * Get idsong.
      *
-     * @return integer 
+     * @return int
      */
     public function getIdsong()
     {
@@ -66,22 +62,23 @@ class Songs
     }
 
     /**
-     * Set namesong
+     * Set namesong.
      *
      * @param string $namesong
+     *
      * @return Songs
      */
     public function setNamesong($namesong)
     {
         $this->namesong = $namesong;
-
+    
         return $this;
     }
 
     /**
-     * Get namesong
+     * Get namesong.
      *
-     * @return string 
+     * @return string
      */
     public function getNamesong()
     {
@@ -89,22 +86,23 @@ class Songs
     }
 
     /**
-     * Set style
+     * Set style.
      *
      * @param string $style
+     *
      * @return Songs
      */
     public function setStyle($style)
     {
         $this->style = $style;
-
+    
         return $this;
     }
 
     /**
-     * Get style
+     * Get style.
      *
-     * @return string 
+     * @return string
      */
     public function getStyle()
     {
@@ -112,22 +110,23 @@ class Songs
     }
 
     /**
-     * Set idgroup
+     * Set idgroup.
      *
-     * @param integer $idgroup
+     * @param string $idgroup
+     *
      * @return Songs
      */
     public function setIdgroup($idgroup)
     {
         $this->idgroup = $idgroup;
-
+    
         return $this;
     }
 
     /**
-     * Get idgroup
+     * Get idgroup.
      *
-     * @return integer 
+     * @return string
      */
     public function getIdgroup()
     {
@@ -135,22 +134,23 @@ class Songs
     }
 
     /**
-     * Set songpath
+     * Set songpath.
      *
      * @param string $songpath
+     *
      * @return Songs
      */
     public function setSongpath($songpath)
     {
         $this->songpath = $songpath;
-
+    
         return $this;
     }
 
     /**
-     * Get songpath
+     * Get songpath.
      *
-     * @return string 
+     * @return string
      */
     public function getSongpath()
     {

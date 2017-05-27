@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86cf3d81-4f43-498b-89b7-5299aff0fee4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/addSong.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DownloadSongController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/AddSongController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/DeleteSongController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Form/SongsType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/songs.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/songs.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/SongsController.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/SongsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Songs.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/Songs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/FileUploader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Songs.orm.xml" afterPath="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm/Songs.orm.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,8 +78,8 @@
       <file leaf-file-name="songs.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/songs.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="46">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -158,10 +149,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php -v" />
-      <command text="php -m" />
-      <command text="s server:stop " />
-      <command text="s server:run " />
       <command text="s server:stop " />
       <command text="s server:run " />
       <command text="git commit -am &quot;ajout du membre termine&quot;" />
@@ -183,6 +170,10 @@
       <command text="s doctrine:generate:form BoissiereE4Bundle:Songs" />
       <command text="s server:stop " />
       <command text="s server:run " />
+      <command text="git commit -am &quot;crud musique terminé&quot;" />
+      <command text="s doctrine:mapping:convert xml src/Boissiere/E4Bundle/Resources/config/doctrine/metadata/orm --from-database --force --filter=Songs" />
+      <command text="s doctrine:mapping:import BoissiereE4Bundle annotation --filter=Songs" />
+      <command text="s doctrine:generate:entities BoissiereE4Bundle:Songs" />
     </commandsHistory>
   </component>
   <component name="FrameworkRootSettings" id="Symfony2">
@@ -210,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php" />
@@ -261,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Resources/config/routing.xml" />
         <option value="$PROJECT_DIR$/src/Boissiere/E4Bundle/Controller/admin/DeleteSongController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/songs.html.twig" />
+        <option value="$USER_HOME$/AppData/Local/Temp/984482.html.url" />
       </list>
     </option>
   </component>
@@ -284,10 +275,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="PhpXdebugProxy" ide_key="PHPStorm" host="localhost" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -976,12 +966,12 @@
       <workItem from="1495573736661" duration="633000" />
       <workItem from="1495713140740" duration="16353000" />
       <workItem from="1495803585794" duration="21468000" />
-      <workItem from="1495881455314" duration="13361000" />
+      <workItem from="1495881455314" duration="14118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224790000" />
+    <option name="totallyTimeSpent" value="225547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,14 +983,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32254696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630435" sideWeight="0.50572914" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36956522" sideWeight="0.49427083" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37321624" sideWeight="0.49427083" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1057,14 +1047,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/Entity/UsersRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Boissiere/E4Bundle/BoissiereE4Bundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1375,9 +1357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1334">
           <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <element signature="e#45#99#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,10 +1455,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/984482.html.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/songs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="46">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
