@@ -2,6 +2,7 @@
 
 namespace Boissiere\E4Bundle\Entity;
 
+use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -49,7 +50,10 @@ class Songs
      */
     private $songpath;
 
-
+    /**
+     * @Assert\File(maxSize="1500000k")
+     */
+    public $file;
 
     /**
      * Get idsong

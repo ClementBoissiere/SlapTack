@@ -37,4 +37,13 @@
     <route id="boissiere_e4_deleteEventPage" path="/deleteEvent/{id}">
         <default key="_controller">BoissiereE4Bundle:admin\DeleteEvent:index</default>
     </route>
+    <route id="boissiere_e4_AddSongPage" path="/addSong">
+        <default key="_controller">BoissiereE4Bundle:admin\AddSong:index</default>
+    </route>
+    <route id="boissiere_e4_DownloadPage" path="/download/{filename}">
+        <default key="_controller">BoissiereE4Bundle:DownloadSong:download</default>
+    </route>
+    <route id="boissiere_e4_deleteSongPage" path="/deleteSong/{id}">
+        <default key="_controller">BoissiereE4Bundle:admin\DeleteSong:index</default>
+    </route>
 </routes>
