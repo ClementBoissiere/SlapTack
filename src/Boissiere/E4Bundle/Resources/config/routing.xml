@@ -46,4 +46,10 @@
     <route id="boissiere_e4_deleteSongPage" path="/deleteSong/{id}">
         <default key="_controller">BoissiereE4Bundle:admin\DeleteSong:index</default>
     </route>
+    <route id="boissiere_e4_moderationPage" path="/moderation">
+        <default key="_controller">BoissiereE4Bundle:Moderation:index</default>
+    </route>
+    <route id="boissiere_e4_moderationEventPage" path="/moderationEvent/{id}">
+        <default key="_controller">BoissiereE4Bundle:ModerationEvent:index</default>
+    </route>
 </routes>

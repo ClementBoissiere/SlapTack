@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     {% if not is_granted('IS_AUTHENTICATED_REMEMBERED') %}
-        <a href="/register" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">S'incrire</a>
+        <a href="/register" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion" id="navbarConnexionLeRetour">S'inscrire</a>
         <a href="/login" role="button" class="btn btn-default navbar-btn navbar-right navbarConnexion">
             <span class="glyphicon glyphicon-log-in"></span> Connexion
         </a>
@@ -22,6 +22,7 @@
             <span class="glyphicon glyphicon-log-out"></span>Deconnexion</a>
     {% endif %}
     <a href="/"> <p class="navbar-text navbar-left">SLAP TRACK</p></a>
+    <a href="/moderation"><p class="navbar-text navbar-right" >Joindre l'administrateur</p> </a>
     <p class="navbar-text navbar-right">Bienvenue {% if is_granted('ROLE_ADMIN') %} Admin {% elseif is_granted('ROLE_USER') %} ! {% endif %}</p>
 </nav>
 

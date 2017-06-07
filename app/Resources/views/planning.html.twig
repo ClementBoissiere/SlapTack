@@ -13,6 +13,7 @@
         <th>Lieu</th>
         <th>Date début</th>
         <th>Date fin</th>
+        <th><a href="{{ path('boissiere_e4_moderationEventPage', {'id':events.idevent}) }}"><span class="glyphicon glyphicon-alert"></span></a></th>
         {% if is_granted('ROLE_ADMIN') %}<th>
                 <a href="{{ path('boissiere_e4_AddEventPage') }}"><span class="glyphicon glyphicon-plus"></span></a>
                 <a href="{{ path('boissiere_e4_editEventPage',{'id':events.idevent}) }}"><span class="glyphicon glyphicon-edit"></span></a>
@@ -44,5 +45,6 @@
             </div>
     {% endfor %}
 </div>
+</body>
 {% endblock %}
 
