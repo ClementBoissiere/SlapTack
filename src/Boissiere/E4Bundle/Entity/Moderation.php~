@@ -1,0 +1,39 @@
+<?php
+
+namespace Boissiere\E4Bundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Moderation
+ *
+ * @ORM\Table(name="moderation")
+ * @ORM\Entity
+ */
+class Moderation
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="idMod", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $idmod;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="request", type="text", length=65535, nullable=false)
+     */
+    private $request;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="mail", type="string", length=255, nullable=false)
+     */
+    private $mail;
+
+
+}
