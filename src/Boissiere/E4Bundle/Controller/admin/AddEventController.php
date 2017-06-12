@@ -17,6 +17,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class AddEventController extends Controller
 {
+//    Controlleur ajout Evenement
     public function indexAction(Request $request)
     {
         $event = new Events();

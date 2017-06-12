@@ -17,6 +17,7 @@ use Boissiere\E4Bundle\FileUploader;
 
 class AddMemberController extends Controller
 {
+    //    Controlleur ajout Membre
     public function indexAction(Request $request)
     {
         $member = new Members();
